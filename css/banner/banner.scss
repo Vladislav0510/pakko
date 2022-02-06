@@ -1,0 +1,82 @@
+$white: #FFFFFF;
+$dark: #100A30;
+
+.page__banner {
+  background: $dark;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner__container {
+}
+
+.banner__body {
+  padding: 64px 0 757px 0;
+  max-width: 674px;
+  margin: 0 auto;
+  text-align: center;
+  color: $white;
+}
+
+.banner__title {
+  font-size: 55px;
+  line-height: calc(64 / 55 * 100%);
+  letter-spacing: 0.56px;
+  margin: 0 0 26px 0;
+}
+
+.banner__text {
+  font-size: 16px;
+  line-height: calc(30 / 16 * 100%);
+  letter-spacing: 0.18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 48px 0;
+}
+
+.banner__buttons {
+  display: flex;
+  justify-content: center;
+
+  & > *:not(:last-child) {
+    margin: 0 16px 0 0;
+  }
+
+}
+
+.banner__button {
+  color: inherit;
+  border: 1px solid #C3C1CB;
+  border-radius: 8px;
+  padding: 15px 37px;
+  font-size: 16px;
+  line-height: 150%;
+  transition-duration: 1s;
+
+  &:hover {
+    background: $white;
+    color: $dark;
+  }
+}
+
+.banner__button_active {
+  background: #624DE3;
+  border: none;
+}
+
+.banner__img {
+  & img {
+    position: absolute;
+    bottom: -176px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+
+}
+
+
+
+
