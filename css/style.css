@@ -218,6 +218,61 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.price {
+  padding: 216px 0 86px 0;
+}
+
+.price__title {
+  color: #100A30;
+  font-size: 48px;
+  line-height: 117%;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 58px 0;
+}
+
+.price__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -11px;
+}
+
+.price__column {
+  padding: 0 11px;
+}
+
+.item {
+  background: rgba(16, 10, 48, 0.03);
+  border-radius: 8px;
+}
+
+.item__list {
+  padding: 24px;
+}
+.item__list > *:not(:last-child) {
+  margin: 0 0 16px 0;
+}
+
+.list__advantages {
+  color: #100A30;
+  font-size: 14px;
+  line-height: 157%;
+  font-weight: 700;
+  padding: 0 0 0 30px;
+}
+
+.list_first {
+  background: url("../../img/price/check1.svg") left no-repeat;
+}
+
+.list_second {
+  background: url("../../img/price/check2.svg") left no-repeat;
+}
+
+.list_third {
+  background: url("../../img/price/check3.svg") left no-repeat;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
