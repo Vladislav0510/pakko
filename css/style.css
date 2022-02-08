@@ -239,11 +239,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .price__column {
   padding: 0 11px;
+  flex: 0 1 33.333%;
 }
 
 .item {
   background: rgba(16, 10, 48, 0.03);
   border-radius: 8px;
+  height: 100%;
 }
 
 .item__list {
@@ -271,6 +273,104 @@ h1, h2, h3, h4, h5, h6 {
 
 .list_third {
   background: url("../../img/price/check3.svg") left no-repeat;
+}
+
+.antony {
+  background: #E8E5FB;
+}
+
+.retour {
+  background: #FDEBEE;
+}
+
+.matt {
+  background: #E6F3FF;
+}
+
+.rett {
+  background: #FFF5E1;
+}
+
+.ut {
+  background: #E8FAF3;
+}
+
+.page__reviews {
+  padding: 110px 0 121px 0;
+}
+
+.reviews__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.reviews__part {
+  padding: 0 20px;
+  flex: 0 1 50%;
+}
+.reviews__part > *:not(:last-child) {
+  margin: 0 0 40px 0;
+}
+
+.reviews__item_title {
+  color: #100A30;
+  font-size: 48px;
+  line-height: 117%;
+  font-weight: 700;
+  padding: 57px 0 41px 0;
+}
+
+.person {
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.person__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 36px 0;
+}
+
+.person__image {
+  background: none;
+}
+
+.nickname {
+  display: flex;
+}
+
+.nickname_image {
+  margin: 0 16px 0 0;
+}
+
+.nickname__title {
+  color: #100A30;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.nickname__subtitle {
+  color: #4C4764;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.person__text {
+  color: #4C4764;
+  font-size: 17px;
+  line-height: 176%;
+  letter-spacing: 0.18px;
+  max-width: 503px;
+}
+
+.person__footer {
+  margin: 20px 0 0 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #100A30;
 }
 
 .wrapper {
