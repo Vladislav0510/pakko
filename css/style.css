@@ -373,6 +373,58 @@ h1, h2, h3, h4, h5, h6 {
   color: #100A30;
 }
 
+.footer {
+  background: #F8F8F9;
+  padding: 55px 0;
+}
+
+.footer__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -65px;
+}
+
+.footer__column {
+  flex: 0 1 25%;
+  padding: 0 65px;
+}
+
+.footer__logo > *:not(:last-child) {
+  margin: 0 0 24px 0;
+}
+
+.footer__label {
+  margin: 0 0 12px 0;
+  color: #100A30;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.footer__text {
+  color: #4C4764;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.18px;
+}
+
+.footer__images > *:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+
+.footer__list > *:not(:last-child) {
+  margin: 0 0 6px 0;
+}
+
+.footer__link {
+  color: #4C4764;
+  font-size: 15px;
+  line-height: 160%;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;
