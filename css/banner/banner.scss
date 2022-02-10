@@ -18,6 +18,49 @@ $dark: #100A30;
   margin: 0 auto;
   text-align: center;
   color: $white;
+  @media (max-width: 998px) {
+    & {
+      padding: 64px 0 600px 0;;
+    }
+  }
+  @media (max-width: 809px) {
+    & {
+      padding: 64px 0 482px 0;;
+    }
+  }
+  @media (max-width: 650px) {
+    & {
+      padding: 64px 0 384px 0;;
+    }
+  }
+  @media (max-width: 520px) {
+    & {
+      padding: 64px 0 284px 0;;
+    }
+  }
+  @media (max-width: 454px) {
+    & {
+      padding: 64px 0 264px 0;;
+    }
+  }
+  @media (max-width: 365px) {
+    & {
+      padding: 64px 0 224px 0;;
+    }
+  }
+
+
+}
+
+.break-line {
+  @media (max-width: 650px) {
+    &:after {
+      content: '';
+      display: block;
+    }
+
+
+  }
 }
 
 .banner__title {
@@ -25,6 +68,22 @@ $dark: #100A30;
   line-height: calc(64 / 55 * 100%);
   letter-spacing: 0.56px;
   margin: 0 0 26px 0;
+  @media (max-width: 650px) {
+    & {
+      font-size: 42px;
+    }
+  }
+  @media (max-width: 520px) {
+    & {
+      font-size: 34px;
+    }
+  }
+  @media (max-width: 405px) {
+    & {
+      font-size: 30px;
+    }
+  }
+
 }
 
 .banner__text {
@@ -41,6 +100,13 @@ $dark: #100A30;
 
   & > *:not(:last-child) {
     margin: 0 16px 0 0;
+  }
+
+  @media (max-width: 454px) {
+    flex-direction: column;
+    & > *:not(:last-child) {
+      margin: 0 0 16px 0;
+    }
   }
 
 }
@@ -67,11 +133,25 @@ $dark: #100A30;
 
 .banner__img {
   & img {
+    display: flex;
     position: absolute;
-    bottom: -176px;
+    top: 360px;
     left: 0;
     right: 0;
     margin: 0 auto;
+    max-width: 100%;
+    object-fit: cover;
+    @media (max-width: 454px) {
+      & {
+        top: 410px;
+      }
+      @media (max-width: 365px) {
+        & {
+          top: 450px;
+        }
+      }
+
+    }
   }
 
 
